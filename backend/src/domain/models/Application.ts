@@ -10,7 +10,7 @@ export class Application {
     applicationDate: Date;
     currentInterviewStep: number;
     notes?: string;
-    interviews: Interview[]; // Added this line
+    interviews: Interview[];
 
     constructor(data: any) {
         this.id = data.id;
@@ -19,7 +19,7 @@ export class Application {
         this.applicationDate = new Date(data.applicationDate);
         this.currentInterviewStep = data.currentInterviewStep;
         this.notes = data.notes;
-        this.interviews = data.interviews || []; // Added this line
+        this.interviews = data.interviews || [];
     }
 
     async save() {

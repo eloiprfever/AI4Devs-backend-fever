@@ -1,0 +1,9 @@
+---
+description: Backend good practices
+globs: backend/
+alwaysApply: false
+---
+Act as a backend typescript expert.
+Always follow the next rules when doing backend development:
+- Apply Domain-Driven Design (DDD)
+- Apply Solid and DRY principles
